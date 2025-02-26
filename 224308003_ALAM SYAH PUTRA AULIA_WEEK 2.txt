@@ -1,0 +1,17 @@
+Analisis dan Diskusi 
+Analisis :
+•	Bagaimana performa model dalam mendeteksi warna? 
+Performa model dalam mendeteksi warna bergantung pada beberapa faktor seperti jumlah data terlatih, fitur yang digunakan (RGB, HSV, atau fitur lainnya), serta parameter model yang dipilih. Model Decision Tree digunakan karena model ini memiliki beberapa keunggulan seperti cepat dalam pelatihan dan prediksi, mudah dipahami dan diinterpretasikan, dan tidak terlalu sensitif terhadap skala fitur sehingga cocok untuk dataset dengan pola sederhana dan jumlah data terbatas.
+•	Bagaimana perbedaan akurasi jika jumlah dataset ditambah?
+Penambahan jumlah dataset akan memengaruhi akurasi karena model mempelajari lebih banyak data. Secara umum, semakin banyak dataset yang representatif, maka model Machine Learning dapat mengenali lebih banyak variasi warna yang mungkin muncul, menghindari overfitting pada dataset kecil yang tidak mencerminkan kondisi nyata, menyesuaikan lebih baik terhadap distribusi warna di dunia nyata, serta meningkatkan generalisasi model, sehingga performa di data uji lebih stabil. Namun, efeknya tergantung pada model yang digunakan dan jumlah dataset yang ditambahkan.
+•	Bagaimana cara meningkatkan kinerja model klasifikasi?
+Peningkatan kinerja model klasifikasi dapat dilakukan dengan cara menambahkan dataset yang tujuannya untuk menambah referensi sehingga hasilnya memiliki akurasi yang lebih tinggi. Selain itu, juga dapat dilakukan penambahan fitur yang sesuai untuk meningkatkan kinerja model. 
+
+
+Diskusi :
+•	Apa keuntungan Machine Learning dibandingkan metode berbasis aturan (rule-based)?
+Machine Learning dapat menangani data yang kompleks dan tidak terstruktur karena rule-based hanya bekerja dengan data yang didefinisikan secara eksplisit. Machine Learning juga lebih adaptif dan fleksibel karena rule-based harus diperbarui manual setiap ada perubahan. Machine Learning meningkatkan akurasi seiring waktu sedangkan rule-based memiliki batasan akurasi karena hanya mengandalkan aturan yang sudah ditentukan
+•	Bagaimana ML dapat diintegrasikan lebih lanjut dalam sistem kendali?
+Machine Learning bisa digunakan dalam sistem kontrol untuk membuatnya lebih pintar dan lebih mudah beradaptasi. Misalnya, model prediktif berbasis ML dapat menganalisis bagaimana suatu sistem bekerja dan secara otomatis menyesuaikan pengaturan kontrol agar lebih optimal. Ini sangat berguna dalam bidang seperti robotika dan otomasi industri. Selain itu, sistem kontrol bisa belajar dari pengalaman langsung, sehingga dapat menemukan cara terbaik untuk menangani situasi yang rumit, seperti mengendalikan mobil tanpa pengemudi.
+•	Apa saja tantangan dalam penerapan ML dalam sistem real-time?
+Menggunakan Machine Learning dalam sistem nyata memiliki beberapa tantangan. Salah satu masalah utama adalah keterbatasan daya komputasi, terutama untuk model yang kompleks seperti deep learning. Model seperti ini membutuhkan banyak sumber daya, sehingga sulit untuk digunakan dalam aplikasi yang membutuhkan respons cepat. Selain itu, data yang dikumpulkan secara real-time bisa terbatas atau memiliki keterlambatan, yang dapat mengurangi akurasi dan kecepatan sistem. Keamanan juga menjadi tantangan, karena model ML rentan terhadap serangan yang bisa mengganggu kinerjanya, terutama dalam aplikasi penting seperti mobil tanpa pengemudi atau proses industri.
